@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: 没有比人更高的山
+description: "Where there is a will, there is a way"
+meta_description: "周亮的博客, Zhou Liang, Ruby on Rails，Java，Android, iOS"
 
 markdown: redcarpet
 pygments: true
@@ -8,5 +8,8 @@ logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://zhouliang.pro'
+author:         '周亮'
+author_description: '现就职于乐视网，前亚马逊中国软件研发工程师，华中科技大学电信系研究生，Dian团队第二任队长，华中科技大学OPhone俱乐部首任主席，擅长Ruby/Rails/Java开发，喜欢iOS设备与开发。'
+
+baseurl: "/"
