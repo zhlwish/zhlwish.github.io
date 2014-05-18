@@ -8,7 +8,7 @@ logo: false
 
 
 # Details for the RSS feed generator
-rss_name: 'rss.xml'
+rss_name: 'feed.rss'
 url:            'http://zhouliang.pro'
 author:         '周亮'
 author_description: '现就职于乐视网，前亚马逊中国软件研发工程师，华中科技大学电信系研究生，Dian团队第二任队长，华中科技大学OPhone俱乐部首任主席，擅长Ruby/Rails/Java开发，喜欢iOS设备与开发。'
