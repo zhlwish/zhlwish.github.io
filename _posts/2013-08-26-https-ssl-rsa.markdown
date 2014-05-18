@@ -31,7 +31,7 @@ comments: []
 
 在非对称加密中，加密秘钥称为 **公钥**(Public Key)，而解密秘钥称为 **私钥**(Private)，而且他们总是成双成对的。一般情况下，我们通过一些工具生成一对公钥和私钥后，将公钥发布给其他人，这样其他人就可以将消息使用公钥加密后发给给我，我接受到消息后，使用我的私钥将消息解密。
 
-<img src="http://www.zhlwish.com/wp-content/uploads/2013/08/rsa.png" alt="enter image description here" />
+<a href="https://www.flickr.com/photos/zhlwish/14023088500/" title="Flickr 上 zhlwish 的 rsa"><img src="https://farm3.staticflickr.com/2897/14023088500_da1890e07c_o.png" width="795" height="259" alt="rsa"></a>
 
 非对称加密有很多种，详见维基百科 <a href="http://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86">公开秘钥加密</a>，使用最广泛的是<a href="https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95">RSA算法</a>。
 想想就觉得很神奇，这是怎么做到的呢。我大概了解了一下<a href="https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95">RSA算法</a>，主要是基于数论中的<a href="https://zh.wikipedia.org/wiki/%E8%B4%B9%E9%A9%AC%E5%B0%8F%E5%AE%9A%E7%90%86">费马小定理</a>。虽然我暂时还不能理解为什么是这样，但是经过我的验证，的确很神奇，大概步骤如下：

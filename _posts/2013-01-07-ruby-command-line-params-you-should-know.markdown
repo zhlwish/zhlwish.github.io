@@ -54,7 +54,7 @@ comments:
     $ time jruby -e '(0..100000000).reduce(:+)'
     5.18s user 0.24s system 108% cpu 4.989 total
 
-## 3. -r 'lib'
+## -r 'lib'
 
 强制让Ruby使用require去加载不包含在<a href="http://ruby-doc.org/core-1.9.3/">核心库</a>中的其他库，如<a href="http://ruby-doc.org/stdlib-1.9.3/">标准库</a>中的<a href="http://ruby-doc.org/stdlib-1.9.3/libdoc/date/rdoc/Date.html">date</a>。
 
@@ -67,7 +67,7 @@ comments:
 
     $ ruby -r date -e "puts Date.today"
 
-## 4. -c
+## -c
 
 让Ruby进行语法检查，确保没有括号不匹配，`do &hellip; end`不匹配的等语法错误。比如：
 
@@ -76,7 +76,7 @@ comments:
 
 不过如果你的程序有自动测试的话，一般不需要这一步的。以防万一，万一有偷懒没写自动测试的情况下，可以为你守住最后一条防线。
 
-## 5. -Idirectory
+## -Idirectory
 
 告诉Ruby到哪儿去加载代码。相当于在Ruby代码中执行`$LOAD_PATH < < directory`。我们使用的JRuby是经过自己修改过的，而且我司有自己的Package管理系统，rubygems和rake的代码分开放在独立的包中的，因此这个参数就起到了很大的作用。
 
@@ -84,11 +84,11 @@ comments:
 
     $ env RUBY_LIB="directory" ruby -e "puts 'hello'"
 
-## 6. -d
+## -d
 
 显示Ruby的debug信息，相当于设置了全局变量$DEBUG为true，其实没什么用，只是比较好玩 :)
 
-## 7. -S
+## -S
 
 这个参数如果不是这次从Ruby往JRuby迁移，我也不会觉得有什么用。Ruby有一套自己的命令，如果rake、gem、irb等等，Ruby自己有一个`RUBYPATH`的变量，`ruby -S rake -T`表示执行`RUBYPATH`下的rake命令。平常，我们并不需要了解这些，但是在JRuby中，我们就要这样了：
 

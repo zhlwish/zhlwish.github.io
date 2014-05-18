@@ -110,16 +110,16 @@ puts $~[0]
 
 最后，`$&amp;`表示最近一次进行匹配的整个字符串，在上例中为`1986-11-25`。$`和`$'`也和匹配相关，分别表示当前匹配之前的字符串(pre-match)和当前匹配之后的字符串(post-match)，具体可以参考<a href="http://www.ruby-doc.org/core-1.9.3/MatchData.html#method-i-post_match">MatchData#post_match</a>，实在是比较少用到。
 
-## 4. $LOAD_PATH 和 $:
+## $LOAD_PATH 和 $:
 
 我在<a href="http://zhouliang.pro/2013/01/10/ruby-environment-variables-you-should-known/">《几个有意思的Ruby环境变量》</a>中示例`RUBYLIB`和`RUBYOPT`环境变量的时候提到过这两个变量，两个都是数组，数组元素为Ruby的代码加载路径。
 除了通过修改环境变量以外修改Ruby代码加载路径外，还可以通过修改这个全局变量来到达相同的效果。也就是说 `env RUBYLIB=/tmp/lib1` 和 `$LOAD_PATH << '/tmp/lib1'`起到的作用一样，各有千秋。
 
-## 5. $$
+## $$
 
 我们有个网站，后台挂了多个Rails进程，所有Rails的进程打印到同一个文件(production.log)中，我们希望在日志里输出一些信息的时候带上进程的id用于了解每个进程的状态，这个变量就用的上了，`$$`代表进程的id号。
 
-## 6. 其他
+## 其他
 
 下面只是简单列举其他的几个全局变量，我从未在写代码的过程中使用过这些，因此只是简单罗列。
 

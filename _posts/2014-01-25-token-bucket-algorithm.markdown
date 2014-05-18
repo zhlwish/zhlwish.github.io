@@ -17,8 +17,8 @@ date_gmt: '2014-01-24 17:40:56 +0800'
 categories:
 - Linux
 tags:
-- linux
-- 算法
+- Linux
+- Algorithm
 comments: []
 ---
 

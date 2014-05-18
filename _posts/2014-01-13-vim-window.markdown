@@ -8,7 +8,7 @@ author_login: admin
 author_email: zhlwish@gmail.com
 author_url: http://www.zhlwish.com
 excerpt: |+
-  Vim实际上是一个**多窗口**的编辑器，启动Vim后实际上默认只打开了一个窗口，如果需要在编辑当前文件的时候参考其他的文件，就需要使用到多窗口了。Vim窗口中打开的是一个Vim缓冲区（Buffer），请参考我的另一篇博客<a href="http://zhouliang.pro/2012/06/28/vim-buffer/">Vim的Buffer/缓冲区</a>，实际上也可以说不谈窗口而只谈缓冲区是不负责任的，因此就有了这篇小短文。额外提一下，Vim中的标签页（Tab）可以包含多个窗口，不像我们常用的<a href="http://www.eclipse.org">Eclipse</a>、<a href="http://macromates.com/">TextMate</a>或者<a href="http://www.sublimetext.com/">Sublime</a>等编辑器，一个标签页只是对应一个窗口。学习一个工具，也要学习其背后的设计原理和设计哲学。
+  Vim实际上是一个多窗口的编辑器，启动Vim后实际上默认只打开了一个窗口，如果需要在编辑当前文件的时候参考其他的文件，就需要使用到多窗口了。Vim窗口中打开的是一个Vim缓冲区（Buffer），请参考我的另一篇博客<a href="http://zhouliang.pro/2012/06/28/vim-buffer/">Vim的Buffer/缓冲区</a>，实际上也可以说不谈窗口而只谈缓冲区是不负责任的，因此就有了这篇小短文。额外提一下，Vim中的标签页（Tab）可以包含多个窗口，不像我们常用的<a href="http://www.eclipse.org">Eclipse</a>、<a href="http://macromates.com/">TextMate</a>或者<a href="http://www.sublimetext.com/">Sublime</a>等编辑器，一个标签页只是对应一个窗口。学习一个工具，也要学习其背后的设计原理和设计哲学。
 
 wordpress_id: 1323
 wordpress_url: http://zhouliang.pro/?p=1323

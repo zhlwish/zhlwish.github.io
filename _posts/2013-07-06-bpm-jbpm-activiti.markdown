@@ -41,14 +41,15 @@ comments:
 
 ## 工作流引擎是什么？
 
-&ldquo;工作流引擎&rdquo;这个名字听起来很吓人（&ldquo;引擎&rdquo;这两个字眼总是能吓人的），我之前就是被吓着了的程序员中的一个。百度词条<a href="http://baike.baidu.com/view/1636259.htm">"工作流引擎"</a>也很难懂。
+“工作流引擎”这个名字听起来很吓人（“引擎”这两个字眼总是能吓人的），我之前就是被吓着了的程序员中的一个。百度词条<a href="http://baike.baidu.com/view/1636259.htm">工作流引擎</a>也很难懂。
 我们经常做一些程序，比如用户A填一张表，提交后，会给另一个用户B（通常是另一类较色）审核，他们觉得没有问题就确定，最后给原来A用户发送一封邮件。在实现这一类系统时我们会设计一张任务表，这个表中有一列成为Status(状态)：用户提交后状态是0，审核通过后状态是1，审核没通过状态是2。但是这样设计会有一些扩展性的问题，比如：
 
 * 我需要知道某表单的历史信息：什么时候由谁提交、什么时候被审核通过、被谁审核通过等
 * 我需要扩展或者改动流程：A用户提交表单后，B用户希望能收到邮件提醒等
 * 我需要定时执行一些任务：为A用户提交表单设置截止时间，提前截止时间一天发送邮件通知
 
-注：这些需求用土鳖的方式是都可以实现，我以前在学校工作的时候，买设备走学校的采购流程系统，我就亲眼看到一个工作人员打开SQL Server去数据库中查询这个订单是什么时候下的。
+> 这些需求用土鳖的方式是都可以实现，我以前在学校工作的时候，买设备走学校的采购流程系统，我就亲眼看到一个工作人员打开SQL Server去数据库中查询这个订单是什么时候下的。
+
 当然，这样的系统做得多了，就会对这些进行归纳抽象，比如:
 
 * 将任务状态表和历史记录表抽象出来成为 **TaskService** 和 **HistoryService** 模块
@@ -64,8 +65,10 @@ comments:
 
 上一节所述A和B参与的工作流的例子，很好的描述了一个A和B的工作流程，我们用一种语言来将这种模式描述出来，jBPM5之前版本用的是jPDL，现在大家都用<a href="http://zh.wikipedia.org/wiki/%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E5%BB%BA%E6%A8%A1%E6%A0%87%E8%AE%B0%E6%B3%95">BMPN</a>，两者大同小异，都是用XML来描述流程，也都有可视化设计器支持，不过BMPN是行业标准。
 编写好流程定义（Process Defintion）文件以及相关的Java类后，就可以部署到引擎中，每一次执行称为一个流程实例（Process Instance）。
+
 工作流有版本的概念，jBPM和Activiti上传一个新的版本后，版本号会增加1，旧版本还没执行完的流程实例还会继续执行。SWF的版本是个字符串，随意指定好了，这样也很好，字符串名称更明确。
 前面提到工作流抽象出来的各个模块，他们之间也是需要相互交互的，比如 **EmailTask** 就需要调用 **Identity** 模块来查找用户的Email信息、用户的姓名等。因此需要一个流程上下文（Process Context）来协调。
+
 最后，流程的各个Task（或者称为Activity）之间可能要共享一点信息，jBPM和Actviti都有流程上下文实例（Process Context Instance）的概念，很像一个Hash，存放key-value信息，当然比Hash更强一点的是，流程上下文实例支持作用域的概念。
 
 ## 工作流引擎的组成部分
@@ -103,17 +106,21 @@ ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("myPr
 {% endhighlight%}
 
 流程启动后，可以通过API来对流程进行控制，如触发一个消息等待任务（receiveTask），甚至是将任务分配给某个用户，获取某个用户的所有任务等。
-```List<task> tasks = taskService.createTaskQuery()
+
+{% highlight java %}
+List<Task> tasks = taskService.createTaskQuery()
      .taskAssignee("admin")
      .orderByDueDate().asc()
      .list();
-```
+{% endhighlight %}
+
 这段代码是查询`admin`用户的所有任务，按照截止时间升序排序，也就是最紧急的放在最前面。
 
 ## 嵌入式部署与独立
 
 嵌入式部署即将流程引擎嵌入部署于Web应用中，这是最容易也是最简单的方式，通过上面的API就可以实现。
 独立部署即流程引擎被独立运行，Web应用通过Rest API或者其他方式调用流程引擎的接口。Activiti引擎实现了一套Rest API，SWF也实现了完整的API结构，包括各个语言的版本。
+
 独立部署的好处就是，引擎独立运行，和外部系统很好的解耦了，外部系统的故障不会导致工作流引擎的崩溃。
 
 ## SWF
@@ -133,4 +140,3 @@ SWF与其说是工作流引擎，不如说是分布式计算调度框架，SWF�
 * <a href="http://www.activiti.org/userguide">Activiti UserGuide</a>
 * <a href="http://activiti.org/javadocs/">Activit JavaDoc</a>
 * <a href="http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-using-swf-api.html">Using the Amazon SWF API</a>
-
