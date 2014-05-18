@@ -1,0 +1,65 @@
+---
+layout: page
+status: publish
+published: true
+title: 电子书下载
+author: 周亮
+author_login: admin
+author_email: zhlwish@gmail.com
+author_url: http://www.zhlwish.com
+excerpt: "欢迎关注&ldquo;图书折扣&rdquo;微信账号，不定期推送值得关注的电子书&#47;纸质书打折促销消息，并支持每日Kindle特价书、Kindle图书热销榜的查询~\r\n<center>\r\n<img
+  src=\"http:&#47;&#47;www.zhlwish.com&#47;wp-content&#47;uploads&#47;2013&#47;06&#47;qrcode_for_gh_c52f6c782aa0_258.jpg\"
+  alt=\"图书折扣 微信帐号\" width=\"258\" height=\"258\" class=\"aligncenter size-full wp-image-1258\"
+  &#47;>\r\n<&#47;center>\r\n<h3>散文类<&#47;h3>\r\n<ol>\r\n\t<li>蒋梦麟《西潮》：<a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=412163800&uk=1157968110\"
+  title=\"蒋梦麟 - 西潮 下载\">epub<&#47;a> <&#47;li>\r\n<&#47;ol>\r\n<h3>小说<&#47;h3>\r\n<ol>\r\n\t<li>沈从文《边城》：<a
+  href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=505918699&uk=1157968110\"
+  title=\"沈从文 - 边城 下载\" target=\"_blank\">mobi<&#47;a> <&#47;li>\r\n<li>汪曾祺《受戒》： <a
+  href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2444650141&uk=1157968110\"
+  title=\"汪曾祺 - 受戒 下载\">mobi<&#47;a><&#47;li>\r\n\t<li>陈忠实《白鹿原》：<a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2381723501&uk=1157968110\"
+  title=\"陈忠实 - 白鹿原 下载\" target=\"_blank\">mobi<&#47;a> | <a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2386411192&uk=1157968110\"
+  title=\"陈忠实 - 白鹿原 下载\" target=\"_blank\">epub<&#47;a> <&#47;li>\r\n<li>孙皓晖《大秦帝国》：<a
+  href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2423437584&uk=1157968110\"
+  title=\"孙皓晖 - 大秦帝国 下载\" target=\"_blank\">mobi<&#47;a> | <a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2420853060&uk=1157968110\"
+  title=\"孙皓晖 - 大秦帝国 下载\" target=\"_blank\">epub<&#47;a> <&#47;li>\r\n\t<li>乔治&middot;奥威尔
+  ：《动物农场》： <a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2284848792&uk=1157968110\"
+  title=\"乔治&middot;奥威尔 - 动物农场 下载\" target=\"_blank\">mobi<&#47;a> | <a href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2271667324&uk=1157968110\"
+  title=\"乔治&middot;奥威尔 - 动物农场 下载\" target=\"_blank\">epub<&#47;a><&#47;li>\r\n<&#47;ol>\r\n<h3>传记类<&#47;h3>\r\n<ol>\r\n<li>杜博奇：《荣氏百年》：<a
+  href=\"http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=3225712989&uk=1157968110\"
+  target=\"_blank\" title=\"杜博奇 - 荣氏百年 下载\">mobi<&#47;a><&#47;li>\r\n<&#47;ol>\r\n\r\n<h3>技术类<&#47;h3>\r\n<ol>\r\n<li>MySQL手册
+  ： <a href=\"http:&#47;&#47;pan.baidu.com&#47;s&#47;1vGMfc\" title=\"MySQL手册 kindle\"
+  target=\"_blank\">Mobi &#47; Kindle<&#47;a> | <a href=\"http:&#47;&#47;downloads.mysql.com&#47;docs&#47;refman-5.6-en.epub\"
+  title=\"MySQL手册 ipad\" target=\"_blank\">EPub &#47; iPad<&#47;a><&#47;li>\r\n<&#47;ol>\r\n"
+wordpress_id: 1223
+wordpress_url: http://www.zhlwish.com/?page_id=1223
+date: '2013-06-18 09:02:39 +0800'
+date_gmt: '2013-06-18 01:02:39 +0800'
+categories: []
+tags: []
+comments: []
+---
+<p>欢迎关注&ldquo;图书折扣&rdquo;微信账号，不定期推送值得关注的电子书&#47;纸质书打折促销消息，并支持每日Kindle特价书、Kindle图书热销榜的查询~<br />
+<center><br />
+<img src="http:&#47;&#47;www.zhlwish.com&#47;wp-content&#47;uploads&#47;2013&#47;06&#47;qrcode_for_gh_c52f6c782aa0_258.jpg" alt="图书折扣 微信帐号" width="258" height="258" class="aligncenter size-full wp-image-1258" &#47;><br />
+<&#47;center></p>
+<h3>散文类<&#47;h3></p>
+<ol>
+<li>蒋梦麟《西潮》：<a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=412163800&uk=1157968110" title="蒋梦麟 - 西潮 下载">epub<&#47;a> <&#47;li><br />
+<&#47;ol></p>
+<h3>小说<&#47;h3></p>
+<ol>
+<li>沈从文《边城》：<a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=505918699&uk=1157968110" title="沈从文 - 边城 下载" target="_blank">mobi<&#47;a> <&#47;li>
+<li>汪曾祺《受戒》： <a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2444650141&uk=1157968110" title="汪曾祺 - 受戒 下载">mobi<&#47;a><&#47;li>
+<li>陈忠实《白鹿原》：<a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2381723501&uk=1157968110" title="陈忠实 - 白鹿原 下载" target="_blank">mobi<&#47;a> | <a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2386411192&uk=1157968110" title="陈忠实 - 白鹿原 下载" target="_blank">epub<&#47;a> <&#47;li>
+<li>孙皓晖《大秦帝国》：<a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2423437584&uk=1157968110" title="孙皓晖 - 大秦帝国 下载" target="_blank">mobi<&#47;a> | <a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2420853060&uk=1157968110" title="孙皓晖 - 大秦帝国 下载" target="_blank">epub<&#47;a> <&#47;li>
+<li>乔治&middot;奥威尔 ：《动物农场》： <a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2284848792&uk=1157968110" title="乔治&middot;奥威尔 - 动物农场 下载" target="_blank">mobi<&#47;a> | <a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=2271667324&uk=1157968110" title="乔治&middot;奥威尔 - 动物农场 下载" target="_blank">epub<&#47;a><&#47;li><br />
+<&#47;ol></p>
+<h3>传记类<&#47;h3></p>
+<ol>
+<li>杜博奇：《荣氏百年》：<a href="http:&#47;&#47;pan.baidu.com&#47;share&#47;link?shareid=3225712989&uk=1157968110" target="_blank" title="杜博奇 - 荣氏百年 下载">mobi<&#47;a><&#47;li><br />
+<&#47;ol></p>
+<h3>技术类<&#47;h3></p>
+<ol>
+<li>MySQL手册 ： <a href="http:&#47;&#47;pan.baidu.com&#47;s&#47;1vGMfc" title="MySQL手册 kindle" target="_blank">Mobi &#47; Kindle<&#47;a> | <a href="http:&#47;&#47;downloads.mysql.com&#47;docs&#47;refman-5.6-en.epub" title="MySQL手册 ipad" target="_blank">EPub &#47; iPad<&#47;a><&#47;li><br />
+<&#47;ol><br />
+<a id="more"></a><a id="more-1223"></a><br />
+<!--OffEnd--></p>
