@@ -54,7 +54,7 @@ comments:
 
 * Slave上面的_I/O thread_连接上Master，并请求从指定日志文件的指定位置(或者从最开始的日志)之后的日志内容;
 * Master接收到来自Slave的_I/O thread_的请求后，通过负责复制的_I/O thread_根据请求信息读取指定日志指定位置之后的日志信息，返回给 Slave端的_I/O thread_。返回信息中除了日志所包含的信息之外，还包括本次返回的信息在Master端的Binary Log文件的名称以及在Binary Log（一般是mysql-bin.xxxxxx）中的位置;
-* Slave的_I/O thread_接收到信息后，将接收到的日志内容依次写入到Slave端的Relay Log文件（一般是mysql-relay-bin.xxxxxx）的最末端，并将读取到的Master端的Binary Log的文件名和位置记录到`master.info`文件中，以便在下一次读取的时候能够清楚的告诉Master&ldquo;我需要从某个Binary Log的哪个位置开始往后的日志内容，请发给我&rdquo;；
+* Slave的_I/O thread_接收到信息后，将接收到的日志内容依次写入到Slave端的Relay Log文件（一般是mysql-relay-bin.xxxxxx）的最末端，并将读取到的Master端的Binary Log的文件名和位置记录到`master.info`文件中，以便在下一次读取的时候能够清楚的告诉Master“我需要从某个Binary Log的哪个位置开始往后的日志内容，请发给我”；
 * Slave 的_SQL thread_检测到Relay Log中新增加了内容后，会马上解析该Log文件中的内容成为在Master端真实执行时候的可执行的Query语句，并在自身执行这些Query。这样，实际上就是在Master端和Slave端执行了同样的Query，所以两端的数据是完全一样的。
 
 ## MySQL主从复制的搭建
@@ -185,6 +185,6 @@ show slave status;
 
 * <a href="http://dev.mysql.com/doc/refman/5.5/en/replication.html">MySQL 5.5 Reference Manual :: 16 Replication</a>
 * <a href="http://tech.it168.com/a2009/0526/577/000000577294.shtml">MySQL Replication的实现原理</a>
-* <a href="http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html">理解MySQL&mdash;&mdash;复制(Replication)</a>
+* <a href="http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html">理解MySQL--复制(Replication)</a>
 * <a href="http://blog.csdn.net/wlzjsj/article/details/8032493">mysql主从复制搭建中几种log和pos详解</a>
 * <a href="http://blog.longwin.com.tw/2008/03/mysql_replication_master_slave_set_2008/">MySQL 設定 Replication (Master - Slave)</a>

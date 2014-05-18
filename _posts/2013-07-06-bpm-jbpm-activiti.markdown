@@ -127,7 +127,7 @@ List<Task> tasks = taskService.createTaskQuery()
 
 SWF与其说是工作流引擎，不如说是分布式计算调度框架，SWF中只包括Task和History两部分，甚至是每个Task之间如果要传递一些数据的话，都只能通过第三方存储（比如Message Queue或者Redis），不过这也给了编程更大的灵活性，问题是这种灵活性是不是非常需要。
 
-一个SWF由Worker和Decider组成，Worker执行实际的任务，而Decider进行流程控制，两者严格上来讲没有区别，只是所执行的任务不同罢了。每个Worker和Decider会定期的去SWF的一个Task List取下一个任务。可以看出来这更像是一个&ldquo;多线程&rdquo;的结构，而SWF官方网站的Use Case是<a href="http://aws.amazon.com/swf/testimonials/swfnasa/">NASA的火星探索计划</a>中需要处理图片的系统，这其实也是一个更多侧重于计算的系统，流程反而非常简单。
+一个SWF由Worker和Decider组成，Worker执行实际的任务，而Decider进行流程控制，两者严格上来讲没有区别，只是所执行的任务不同罢了。每个Worker和Decider会定期的去SWF的一个Task List取下一个任务。可以看出来这更像是一个“多线程”的结构，而SWF官方网站的Use Case是<a href="http://aws.amazon.com/swf/testimonials/swfnasa/">NASA的火星探索计划</a>中需要处理图片的系统，这其实也是一个更多侧重于计算的系统，流程反而非常简单。
 
 另外，SWF（Simple Workflow）的一个Workflow不能太复杂，因为所有的流程控制都集中于Decider，如果太复杂的话Decider将无比庞大，给维护和扩展带来一定的困扰。
 

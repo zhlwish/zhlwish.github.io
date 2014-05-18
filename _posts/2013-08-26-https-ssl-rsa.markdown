@@ -63,7 +63,7 @@ comments: []
     The key fingerprint is:
     19:03:9f:99:ef:65:cc:44:d9:f4:89:89:47:89:da:ff liang@liang-macpro
     The key's randomart image is:
-    # 后面的输出省略&hellip;&hellip;
+    # 后面的输出省略……
 
 这个命令会生成两个文件：`/Users/liang/.ssh/id_rsa.pub`和`/Users/liang/.ssh/id_rsa`。前者是公钥，在建立SSH连接时会发送给服务器，服务器将数据使用此公钥加密后传送给客户端（本机）。后者是私钥，客户端（本机）使用此秘钥对服务器发送的数据进行解密，这个文件很重要，绝对不能外泄，因此最好是能对此文件进行加密，上面命令执行时中间有一个步骤会请你输入密码，这个密码就用于<a href="https://help.github.com/articles/working-with-ssh-key-passphrases">加密私钥</a>。
 
