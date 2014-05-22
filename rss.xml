@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>没有比人更高的山</title>
+    <link>http://zhouliang.pro</link>
+    <description>Where there is a will, there is a way</description>
+    <copyright>除非另有声明，本网站采用&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/cn/&quot;&gt;知识共享“署名 3.0 中国大陆”许可协议&lt;/a&gt;授权。</copyright>
+    <pubDate>Sun, 18 May 2014 07:55:57 +0800</pubDate>
+    <item>
+      <title>A new start</title>
+      <link>http://zhouliang.pro/2014/05/18/a-new-start</link>
+      <description>&lt;p&gt;前几天朋友告诉我VPS上的WordPress博客CPU占用率一直100%，怀疑被恶意攻击了。这几天刚换工作，有些忙，因此一直没时间琢磨，适逢周末，记起这个事情。想想WordPress性能问题不是一天两天了，因此决定换一个博客系统，可选择的不多，搜索到&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;，支持托管为&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;，垂涎已久，显得高端大气上档次不说，还支持从&lt;a href=&quot;http://import.jekyllrb.com/docs/wordpress/&quot;&gt;自动从WordPress迁移&lt;/a&gt;，很心动。&lt;/p&gt;
+</description>
+      <pubDate>Sun, 18 May 2014 07:55:57 +0800</pubDate>
+      <dc:date>2014-05-18T07:55:57+08:00</dc:date>
+    </item>
+    <item>
+      <title>MySQL查询优化：tmp_table_size与max_heap_table_size</title>
+      <link>http://zhouliang.pro/2014/04/18/mysql-tmp_table_size-max_heap_table_size</link>
+      <description>&lt;p&gt;对于某些query，MySQL会创建临时表来进行处理，临时表有两种：基于MEMORY存储引擎的临时内存表以及基于MyISAM存储引擎的临时磁盘表。当临时内存表的大小达到一定限制的时候，MySQL就会将临时内存表写入到磁盘，变为临时磁盘表。这个限制由tmp&lt;em&gt;table&lt;/em&gt;size和max&lt;em&gt;heap&lt;/em&gt;table_size这两个变量中的最小值确定。&lt;/p&gt;
+</description>
+      <pubDate>Fri, 18 Apr 2014 10:02:33 +0800</pubDate>
+      <dc:date>2014-04-18T10:02:33+08:00</dc:date>
+    </item>
+    <item>
+      <title>Linux dig 命令详解</title>
+      <link>http://zhouliang.pro/2014/02/12/dig-command-in-linux</link>
+      <description>&lt;p&gt;之所以会关注到这个命令，是因为最近在研究 &lt;a href=&quot;http://zhouliang.pro/2014/01/19/mysql-master-slave-replication/&quot;&gt;MySQL的主从复制&lt;/a&gt; 相关的技术，希望能实现当Slave落后Master比较多的时候自动将Slave从数据源中去除掉的功能。找了很多资料，没有比较好的现成办法。只能参考 &lt;a href=&quot;http://www.percona.com/software/percona-toolkit&quot;&gt;percona-toolkit&lt;/a&gt; 中的 &lt;a href=&quot;http://www.percona.com/doc/percona-toolkit/2.1/pt-heartbeat.html&quot;&gt;pt-heartbeat&lt;/a&gt; 命令的实现自己来做，在实现的过程中，发现这个&lt;code&gt;dig&lt;/code&gt;命令，深感有必要记录一下。&lt;/p&gt;
+</description>
+      <pubDate>Wed, 12 Feb 2014 00:37:28 +0800</pubDate>
+      <dc:date>2014-02-12T00:37:28+08:00</dc:date>
+    </item>
+    <item>
+      <title>令牌桶算法/Token Bucket Algorithm</title>
+      <link>http://zhouliang.pro/2014/01/25/token-bucket-algorithm</link>
+      <description>&lt;p&gt;在电信网络中最常用的流量控制算法是 &lt;a href=&quot;http://en.wikipedia.org/wiki/Token_bucket&quot;&gt;令牌桶算法&lt;/a&gt;（Token Bucket Algorithm），在Linux上同样也用了这个算法来 &lt;a href=&quot;http://lartc.org/howto/lartc.qdisc.classless.html#AEN690&quot;&gt;对带宽进行管理&lt;/a&gt;。当然使用场景不仅仅局限于此，凡是涉及到流量控制的地方都可以使用这种方法。例如，我们可以用这种方法对Web Service的访问量进行控制，可以避免Web Service遭受到恶意的攻击，也可以实现较复杂的流量分级计费，比如：调用次数1000次/s以下，每天收费10元；1000-2000次/s以下，每天收费40元等。&lt;/p&gt;
+</description>
+      <pubDate>Sat, 25 Jan 2014 01:40:56 +0800</pubDate>
+      <dc:date>2014-01-25T01:40:56+08:00</dc:date>
+    </item>
+    <item>
+      <title>MySQL Master-Slave Replication / 主从复制</title>
+      <link>http://zhouliang.pro/2014/01/19/mysql-master-slave-replication</link>
+      <description>&lt;p&gt;通过MySQL主从复制（Master-Slave）来实现读写分离是一种常用的扩展方法：所有的写操作通过Master完成，所有的读操作通过Slave来完成，也可以设置一主多从，或者双主的方式来实现负载均衡，极大的增强了MySQL的可扩展性。我所在的Team也是通过MySQL的这种主从复制的结构来扩展MySQL的性能的，不过，我并没有参与搭建这个平台，本文是我在业余进行的自学结果（不管你有没有读出来，这里的言外之意就是按照我这里搞如果搞出问题来了，我是不负责的）。&lt;/p&gt;
+</description>
+      <pubDate>Sun, 19 Jan 2014 18:11:31 +0800</pubDate>
+      <dc:date>2014-01-19T18:11:31+08:00</dc:date>
+    </item>
+    <item>
+      <title>Vim的Window/窗口</title>
+      <link>http://zhouliang.pro/2014/01/13/vim-window</link>
+      <description>&lt;p&gt;Vim实际上是一个多窗口的编辑器，启动Vim后实际上默认只打开了一个窗口，如果需要在编辑当前文件的时候参考其他的文件，就需要使用到多窗口了。Vim窗口中打开的是一个Vim缓冲区（Buffer），请参考我的另一篇博客&lt;a href=&quot;http://zhouliang.pro/2012/06/28/vim-buffer/&quot;&gt;Vim的Buffer/缓冲区&lt;/a&gt;，实际上也可以说不谈窗口而只谈缓冲区是不负责任的，因此就有了这篇小短文。额外提一下，Vim中的标签页（Tab）可以包含多个窗口，不像我们常用的&lt;a href=&quot;http://www.eclipse.org&quot;&gt;Eclipse&lt;/a&gt;、&lt;a href=&quot;http://macromates.com/&quot;&gt;TextMate&lt;/a&gt;或者&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime&lt;/a&gt;等编辑器，一个标签页只是对应一个窗口。学习一个工具，也要学习其背后的设计原理和设计哲学。&lt;/p&gt;
+</description>
+      <pubDate>Mon, 13 Jan 2014 01:09:51 +0800</pubDate>
+      <dc:date>2014-01-13T01:09:51+08:00</dc:date>
+    </item>
+    <item>
+      <title>MySQL删除表的时候忽略外键约束</title>
+      <link>http://zhouliang.pro/2013/12/18/mysql-drop-table-ignore-foreign-key-constraints</link>
+      <description>&lt;p&gt;删除表不是特别常用，特别是对于存在外键关联的表，删除更得小心。但是在开发过程中，发现Schema设计的有问题而且要删除现有的数据库中所有的表来重新创建也是常有的事情；另外在测试的时候，也有需要重新创建数据库的所有表。当然很多自动化工具也可以做这样的事情。&lt;/p&gt;
+</description>
+      <pubDate>Wed, 18 Dec 2013 08:10:11 +0800</pubDate>
+      <dc:date>2013-12-18T08:10:11+08:00</dc:date>
+    </item>
+    <item>
+      <title>HTTPS与SSL(二)：X.509</title>
+      <link>http://zhouliang.pro/2013/09/13/https-ssl-x509</link>
+      <description>&lt;p&gt;读完上一篇&lt;a href=&quot;http://zhouliang.com/2013/08/26/https-ssl-rsa/&quot;&gt;《HTTPS与SSL(一)：RSA》&lt;/a&gt;，你应该大概了解了RSA加密在整个软件生态中起到的巨大作用。然而，现实生活中仅有加密还远远不够，假设你正在和小明打电话，即使电话传输中使用了万无一失的加密方式，你怎么保证正在和你对话的就是小明本人呢？你说，我听得出来小明的声音，但是声音可以造假；你说，我问小明几个只有我们两个知道答案的问题，呵呵，这种现实生活中也许可以，但是在互联网中世界中不可能（这种方式到是非常好地用在了一些网站的找回密码功能中）。&lt;/p&gt;
+
+&lt;p&gt;肿么办呢？X.509正是为此而生。&lt;/p&gt;
+</description>
+      <pubDate>Fri, 13 Sep 2013 00:06:36 +0800</pubDate>
+      <dc:date>2013-09-13T00:06:36+08:00</dc:date>
+    </item>
+    <item>
+      <title>HTTPS与SSL(一)：RSA</title>
+      <link>http://zhouliang.pro/2013/08/26/https-ssl-rsa</link>
+      <description>&lt;p&gt;工作中常遇到一些关于安全方面的名词，如SSL、HTTPS、证书、pem、keystore、PGP等，作为不是对安全不甚了解的程序员而言，深感压力巨大，于是趁周末得闲查阅了相关资料，做简要记录。&lt;/p&gt;
+</description>
+      <pubDate>Mon, 26 Aug 2013 01:06:36 +0800</pubDate>
+      <dc:date>2013-08-26T01:06:36+08:00</dc:date>
+    </item>
+    <item>
+      <title>波兰式、逆波兰式与表达式求值</title>
+      <link>http://zhouliang.pro/2013/08/18/polish_notation-reverse_polish_notation</link>
+      <description>&lt;p&gt;波兰式、逆波兰式是《数据结构》课程中讲解关于栈的时候提到的，栈是很简单的一种数据结构。但是这些理论的提出却是计算机早期发展领域的重大突破，值得仔细回味。&lt;/p&gt;
+</description>
+      <pubDate>Sun, 18 Aug 2013 21:15:38 +0800</pubDate>
+      <dc:date>2013-08-18T21:15:38+08:00</dc:date>
+    </item>
+    <item>
+      <title>Java工作流引擎：jBPM、Activiti以及SWF</title>
+      <link>http://zhouliang.pro/2013/07/06/bpm-jbpm-activiti</link>
+      <description>&lt;p&gt;这只是一篇非常粗浅的记录我对工作流引擎认识的文章。知道工作流引擎是很久之前了，但是一直都没有机会尝试，一是没有业务上的需要，二是感觉工作流入门不容易。最近，项目中用到了一点工作流的东西，虽然我没有具体参与，但是了解一下还是好的。于是抽周末两天时间读了一些文章和jBPM以及Activiti的User Reference，本文做一下记录。SWF指的是Amazon Simple Workflow。&lt;/p&gt;
+</description>
+      <pubDate>Sat, 06 Jul 2013 11:19:25 +0800</pubDate>
+      <dc:date>2013-07-06T11:19:25+08:00</dc:date>
+    </item>
+    <item>
+      <title>转载：汪曾祺《八千岁》</title>
+      <link>http://zhouliang.pro/2013/06/16/wang-zengqi-ba-qian-sui</link>
+      <description>&lt;p&gt;据说他是靠八千钱起家的，所以大家背后叫他八千岁。八千钱是八千个制钱，即八百枚当十的铜元。当地以一百铜元为一吊，八千钱也就是八吊钱。按当时银钱市价，三吊钱兑换一块银元，八吊钱还不到两块七角钱。两块七角钱怎么就能起了家呢？为什么整整是八千钱，不是七千九，不是八千一？这些，谁也不去追究，然而死死地认定了他就是八千钱起家的，他就是八千岁！&lt;/p&gt;
+</description>
+      <pubDate>Sun, 16 Jun 2013 10:16:12 +0800</pubDate>
+      <dc:date>2013-06-16T10:16:12+08:00</dc:date>
+    </item>
+    <item>
+      <title>转载：梁启超《最苦与最乐》</title>
+      <link>http://zhouliang.pro/2013/06/14/liang-qichao-zui-ku-yu-zui-le</link>
+      <description>&lt;p&gt;人生什么事最苦呢？贫吗？不是。失意吗？不是。老吗？死吗？都不是。我说人生最苦的事，莫苦于身上背著一种未了的责任。人若能知足，虽贫不苦；若能安分（不多作分外希望），虽然失意不苦；老、死乃人生难免的事，达观的人看得很平常，也不算什么苦。独是凡人生在世间一天，便有一天应该的事。该做的事没有做完，便像是有几千斤重担子压在肩头，再苦是没有的了。为什么呢？因为受那良心责备不过，要逃躲也没处逃躲呀！&lt;/p&gt;
+</description>
+      <pubDate>Fri, 14 Jun 2013 11:48:36 +0800</pubDate>
+      <dc:date>2013-06-14T11:48:36+08:00</dc:date>
+    </item>
+    <item>
+      <title>几个有意思的Ruby全局变量</title>
+      <link>http://zhouliang.pro/2013/01/15/ruby-global-variables-you-should-known</link>
+      <description>&lt;p&gt;最近在做Ruby on Rails往JRuby上的迁移工作，积累了一些关于平常写代码时不太容易注意的环境变量、命令行参数和全局变量，了解这些知识对于进一步学习Ruby有很大的帮助，也有助于阅读一些开源框架如&lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Rails&lt;/a&gt;、&lt;a href=&quot;https://github.com/rspec&quot;&gt;Rspec&lt;/a&gt;的代码。本文是这个小系列的第三篇。其他两篇分别是&lt;a href=&quot;http://www.zhlwish.com/2013/01/10/ruby-environment-variables-you-should-known/&quot;&gt;几个有意思的Ruby环境变量&lt;/a&gt;和&lt;a href=&quot;http://www.zhlwish.com/2013/01/07/ruby-command-line-params-you-should-know/&quot;&gt;几个有意思的Ruby命令行参数&lt;/a&gt; 。&lt;/p&gt;
+</description>
+      <pubDate>Tue, 15 Jan 2013 00:39:37 +0800</pubDate>
+      <dc:date>2013-01-15T00:39:37+08:00</dc:date>
+    </item>
+    <item>
+      <title>几个有意思的Ruby环境变量</title>
+      <link>http://zhouliang.pro/2013/01/10/ruby-environment-variables-you-should-known</link>
+      <description>&lt;p&gt;最近在做Ruby on Rails往JRuby上的迁移工作，积累了一些关于平常写代码时不太容易注意的环境变量、命令行参数和全局变量，了解这些知识对于进一步学习Ruby有很大的帮助，也有助于阅读一些开源框架如&lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Rails&lt;/a&gt;、&lt;a href=&quot;https://github.com/rspec&quot;&gt;Rspec&lt;/a&gt;的代码。本文是这个小系列的第二篇。 &lt;/p&gt;
+</description>
+      <pubDate>Thu, 10 Jan 2013 11:24:03 +0800</pubDate>
+      <dc:date>2013-01-10T11:24:03+08:00</dc:date>
+    </item>
+    <item>
+      <title>几个有意思的Ruby命令行参数 </title>
+      <link>http://zhouliang.pro/2013/01/07/ruby-command-line-params-you-should-know</link>
+      <description>&lt;p&gt;最近在做Ruby on Rails往JRuby上的迁移工作，积累了一些关于平常写代码时不太容易注意的环境变量、命令行参数和全局变量，了解这些知识对于进一步学习Ruby有很大的帮助，也有助于阅读一些开源框架如&lt;a href=&quot;https://github.com/rails/rails&quot;&gt;Rails&lt;/a&gt;、&lt;a href=&quot;https://github.com/rspec/rspec-core&quot;&gt;Rspec&lt;/a&gt;的代码。本文算是这个小系列的第一篇。 &lt;/p&gt;
+</description>
+      <pubDate>Mon, 07 Jan 2013 23:37:17 +0800</pubDate>
+      <dc:date>2013-01-07T23:37:17+08:00</dc:date>
+    </item>
+    <dc:date>2014-05-18T07:55:57+08:00</dc:date>
+  </channel>
+</rss>
