@@ -15,8 +15,9 @@ author_description: '现就职于乐视网，前亚马逊中国软件研发工�
 copyright: '除非另有声明，本网站采用<a href="http://creativecommons.org/licenses/by/3.0/cn/">知识共享“署名 3.0 中国大陆”许可协议</a>授权。'
 
 
-baseurl: 
+baseurl: '/'
 permalink: /:year/:month/:day/:title
 
 paginate_path: /page/:num
 paginate: 15
+
