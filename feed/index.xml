@@ -12,7 +12,7 @@
     <pubDate>Fri, 23 May 2014 15:10:23 +0800</pubDate>
     <item>
       <title>Linux mount命令详解</title>
-      <link>http://zhouliang.pro/2014/05/23/linux-mount</link>
+      <link>http://zhouliang.pro/2014/05/23/linux-mount-command</link>
       <description>&lt;p&gt;&lt;i&gt;mount&lt;/i&gt;命令在我心目中一直是个高大上的命令：首先，经常看见长度很长的&lt;i&gt;mount&lt;/i&gt;命令；其次，&lt;i&gt;mount&lt;/i&gt;是直接配置硬件的命令，敲命令的时候总是难免担心把机器搞挂了。因此，我一直以来在Mac OS和Ubuntu中都依靠操作系统自动检查插入的磁盘，就像在Windows里面一样，简直弱爆了。今天就抽空把整理一下这方面的知识。&lt;/p&gt;
 </description>
       <pubDate>Fri, 23 May 2014 15:10:23 +0800</pubDate>
