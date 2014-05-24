@@ -93,13 +93,13 @@ Linux和Linux之间文件共享，据我目前所知有两种方法：
 
 _[cifs][9]_是微软实现的一种在Windows主机之间进行网络共享的协议。如果你需要在开机的时候自动挂载此文件系统，同样可以相应的配置写到_/etc/fstab_文件中。
 
-## unmount
+## umount
 
 顾名思义，就是卸载文件系统。这个命令更加简单，参数可以是挂载点，也可以是磁盘名称，即下面两种方法均可：
 
 	mount /dev/hda1 /mydoc
-	unmount /dev/hda1
-	unmount /mydoc
+	umount /dev/hda1
+	umount /mydoc
 
 ## 参考
 
