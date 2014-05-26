@@ -16,6 +16,7 @@ categories:
 - MySQL
 tags:
 - Database
+- MySQL
 comments: []
 ---
 
