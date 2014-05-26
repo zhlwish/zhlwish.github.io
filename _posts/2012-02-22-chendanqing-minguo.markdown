@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: '[转载]陈丹青：民国是历史还是现实'
+title: "[转载]陈丹青：民国是历史还是现实"
 author: 周亮
 author_login: admin
 author_email: zhlwish@gmail.com
@@ -14,14 +14,14 @@ date: '2012-02-22 20:57:21 +0800'
 date_gmt: '2012-02-22 12:57:21 +0800'
 categories:
 - Life
-tags:[]
+tags: []
 comments: []
 ---
 该视频来自于2011年9月12日举办的<a href="http://special.umiwi.com/Utopia/" target="_blank">理想国文化沙龙</a>，文字稿来源于<a href="http://special.umiwi.com/2011/0911/36231_7.shtml" target="_blank">优米网</a>，本人有部分修正。
 
 ## 视频
 
-<embed src="http://www.tudou.com/v/MpF0ehkv0aI/&bid=05&rpid=354672556&resourceId=354672556_05_05_99/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed>
+<embed src="http://www.tudou.com/v/MpF0ehkv0aI/&amp;bid=05&amp;rpid=354672556&amp;resourceId=354672556_05_05_99/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="480" height="400"></embed>
 
 ## 文字稿
 
