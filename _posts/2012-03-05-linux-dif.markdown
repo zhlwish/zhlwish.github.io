@@ -7,16 +7,16 @@ author: 周亮
 author_login: admin
 author_email: zhlwish@gmail.com
 author_url: http://www.zhlwish.com
-excerpt: "<a href=\"http://en.wikipedia.org/wiki/Diff\" target=\"_blank\">diff</a>程序是linux上非常重要的工具，用于比较文件的内容，特别是比较两个版本不同的文件(本文中的a.c、b.c可以理解为两个版本的同一个文件，b.c是在a.c的基础上的修正版)以找到改动的地方。diff在命令行中打印每一个行的改动。最新版本的diff还支持二进制文件。diff程序的输出被称为补丁(patch)，因为unix系统中还有一个<a
-  href=\"http://en.wikipedia.org/wiki/Patch_(Unix)\" target=\"_blank\">patch</a>程序，可以根据diff的输出将a.c的文件内容更新为b.c。diff是svn、cvs、git等版本控制工具不可或缺的一部分。"
+excerpt: "<a href=\"http://en.wikipedia.org/wiki/Diff\" target=\"_blank\">diff</a>程序是linux上非常重要的工具，用于比较文件的内容，特别是比较两个版本不同的文件(本文中的a.c、b.c可以理解为两个版本的同一个文件，b.c是在a.c的基础上的修正版)以找到改动的地方。diff在命令行中打印每一个行的改动。最新版本的diff还支持二进制文件。diff程序的输出被称为补丁(patch)，因为unix系统中还有一个<a href=\"http://en.wikipedia.org/wiki/Patch_(Unix)\" target=\"_blank\">patch</a>程序，可以根据diff的输出将a.c的文件内容更新为b.c。diff是svn、cvs、git等版本控制工具不可或缺的一部分。"
 wordpress_id: 972
 wordpress_url: http://www.zhlwish.com/?p=972
 date: '2012-03-05 23:13:32 +0800'
 date_gmt: '2012-03-05 15:13:32 +0800'
 categories:
-- Linux技术
+- Linux
 tags:
 - shell
+- diff
 comments:
 - id: 945
   author: chnmessi

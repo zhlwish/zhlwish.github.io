@@ -14,9 +14,9 @@ wordpress_url: http://www.zhlwish.com/?p=1081
 date: '2012-07-08 17:30:17 +0800'
 date_gmt: '2012-07-08 09:30:17 +0800'
 categories:
-- Web
+- JavaScript
 tags:
-- web前端
+- web
 - jquery
 - javascript
 comments:

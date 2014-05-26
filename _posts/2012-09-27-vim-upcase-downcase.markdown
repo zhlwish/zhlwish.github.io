@@ -15,8 +15,7 @@ wordpress_url: http://www.zhlwish.com/?p=1139
 date: '2012-09-27 11:57:59 +0800'
 date_gmt: '2012-09-27 03:57:59 +0800'
 categories:
-- Linux技术
-- Ruby
+- Linux
 tags:
 - vim
 comments:

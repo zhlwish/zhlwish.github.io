@@ -19,7 +19,7 @@ wordpress_url: http://www.zhlwish.com/?p=1115
 date: '2012-08-06 22:39:35 +0800'
 date_gmt: '2012-08-06 14:39:35 +0800'
 categories:
-- 生活感悟
+- Life
 tags: []
 comments:
 - id: 1000

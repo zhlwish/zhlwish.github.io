@@ -14,7 +14,6 @@ wordpress_url: http://www.zhlwish.com/?p=1101
 date: '2012-07-23 00:49:01 +0800'
 date_gmt: '2012-07-22 16:49:01 +0800'
 categories:
-- Web
 - Ruby
 tags:
 - ruby

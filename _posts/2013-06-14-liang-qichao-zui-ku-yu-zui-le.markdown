@@ -15,9 +15,8 @@ wordpress_url: http://www.zhlwish.com/?p=1218
 date: '2013-06-14 11:48:36 +0800'
 date_gmt: '2013-06-14 03:48:36 +0800'
 categories:
-- 生活感悟
-tags:
-- 文化散文
+- Life
+tags: []
 comments: []
 ---
 原载于：一九二二年八月十二日《时事新报&middot;学灯》

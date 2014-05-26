@@ -14,10 +14,10 @@ wordpress_url: http://www.zhlwish.com/?p=1128
 date: '2012-09-11 16:26:48 +0800'
 date_gmt: '2012-09-11 08:26:48 +0800'
 categories:
-- Web
-- 编程语言
+- JavaScript
 tags:
 - javascript
+- web
 comments:
 - id: 1080
   author: JavaScript Date &#124; 点说IT

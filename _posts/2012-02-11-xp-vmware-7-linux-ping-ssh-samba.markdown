@@ -13,7 +13,7 @@ wordpress_url: http://www.zhlwish.com/?p=949
 date: '2012-02-11 20:28:42 +0800'
 date_gmt: '2012-02-11 12:28:42 +0800'
 categories:
-- Linux技术
+- Linux
 tags: []
 comments:
 - id: 984

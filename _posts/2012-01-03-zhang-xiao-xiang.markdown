@@ -2,22 +2,19 @@
 layout: post
 status: publish
 published: true
-title: zhangxi
+title: 纪念张孝祥老师
 author: 周亮
 author_login: admin
 author_email: zhlwish@gmail.com
 author_url: http://www.zhlwish.com
-excerpt: "昨天在微博上看到<a href=\"http://blog.csdn.net/zhangxiaoxiang\" target=\"_blank\">张孝祥</a>老师突然病逝，我刚开始搞混了，我以为是孙鑫。孙鑫大家都知道，有一套视频教程讲VC++的，在BT上很火，但是后来不让下载了，说是孙鑫自己办了培训公司，因此不让这类视频在网上传播了。过了一段时间我才意识到我错了，张孝祥最初是讲Java，我Java入门就是看的他的视频，讲Java线程讲得特别清楚，他也创办了培训公司，但是所有的培训视频都在<a
-  href=\"http://www.verycd.com/topics/239368/\" target=\"_blank\">verycd</a>上可以免费下载，全部公开的。顿时让我肃然起敬。\r\n\r\n后来读<a
-  href=\"http://blog.csdn.net/zhangxiaoxiang\" target=\"_blank\">张孝祥在CSDN上的博客</a>，感觉到他的不容易。现如今，计算机科班毕业的大佬们看不起非科班的，就连称谓都有两种：程序猿和程序员。非科班的被认为只会编码，不懂架构，不懂算法的代码民工。而张孝祥做为“代码民工”的培训机构创始人，同样也被大多数人看不起，甚至是贬低，有些公司公然号称不招传智播客的毕业生，但是他还是坚持去做这一份事业。我想说的是，即使是计算机科班的毕业生在编程入门的时候谁不以能有通俗易懂的视频培训课程而感到幸福呢，更何况是所有的视频课程都能通过互联网进行下载，而且免费。这是不仅仅是一种自信，而是一种信仰，一种追求。这样的追求，谁也不能苛责。\r\n\r\n"
+excerpt: 昨天在微博上看到<a href=\"http://blog.csdn.net/zhangxiaoxiang\" target=\"_blank\">张孝祥</a>老师突然病逝，我刚开始搞混了，我以为是孙鑫。孙鑫大家都知道，有一套视频教程讲VC++的，在BT上很火，但是后来不让下载了，说是孙鑫自己办了培训公司，因此不让这类视频在网上传播了。过了一段时间我才意识到我错了，张孝祥最初是讲Java，我Java入门就是看的他的视频，讲Java线程讲得特别清楚，他也创办了培训公司，但是所有的培训视频都在<a href=\"http://www.verycd.com/topics/239368/\" target=\"_blank\">verycd</a>上可以免费下载，全部公开的。顿时让我肃然起敬。后来读<a href=\"http://blog.csdn.net/zhangxiaoxiang\" target=\"_blank\">张孝祥在CSDN上的博客</a>，感觉到他的不容易。现如今，计算机科班毕业的大佬们看不起非科班的，就连称谓都有两种：程序猿和程序员。非科班的被认为只会编码，不懂架构，不懂算法的代码民工。而张孝祥做为“代码民工”的培训机构创始人，同样也被大多数人看不起，甚至是贬低，有些公司公然号称不招传智播客的毕业生，但是他还是坚持去做这一份事业。我想说的是，即使是计算机科班的毕业生在编程入门的时候谁不以能有通俗易懂的视频培训课程而感到幸福呢，更何况是所有的视频课程都能通过互联网进行下载，而且免费。这是不仅仅是一种自信，而是一种信仰，一种追求。这样的追求，谁也不能苛责。
 wordpress_id: 943
 wordpress_url: http://www.zhlwish.com/?p=943
 date: '2012-01-03 00:27:51 +0800'
 date_gmt: '2012-01-02 16:27:51 +0800'
 categories:
-- 生活感悟
-tags:
-- 成长
+- Life
+tags: []
 comments:
 - id: 764
   author: chnmessi

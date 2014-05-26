@@ -13,10 +13,8 @@ wordpress_url: http://www.zhlwish.com/?p=965
 date: '2012-02-22 20:57:21 +0800'
 date_gmt: '2012-02-22 12:57:21 +0800'
 categories:
-- 生活感悟
-tags:
-- 民国
-- 陈丹青
+- Life
+tags:[]
 comments: []
 ---
 该视频来自于2011年9月12日举办的<a href="http://special.umiwi.com/Utopia/" target="_blank">理想国文化沙龙</a>，文字稿来源于<a href="http://special.umiwi.com/2011/0911/36231_7.shtml" target="_blank">优米网</a>，本人有部分修正。

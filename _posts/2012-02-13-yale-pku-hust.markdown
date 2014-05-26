@@ -13,7 +13,7 @@ wordpress_url: http://www.zhlwish.com/?p=955
 date: '2012-02-13 11:56:16 +0800'
 date_gmt: '2012-02-13 03:56:16 +0800'
 categories:
-- 生活感悟
+- Life
 tags: []
 comments:
 - id: 926

@@ -13,9 +13,9 @@ wordpress_url: http://www.zhlwish.com/?p=1021
 date: '2012-04-17 23:46:43 +0800'
 date_gmt: '2012-04-17 15:46:43 +0800'
 categories:
-- Linux技术
-tags:
 - MySQL
+tags:
+- Database
 comments: []
 ---
 

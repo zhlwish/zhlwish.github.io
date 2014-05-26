@@ -15,5 +15,8 @@ category: Life
 * 增加了[Projects](http://zhouliang.pro/projects)页面
 * 修复了[RSS](http://zhouliang.pro/feed)连接
 
+### 2014-05-27 update
+
+* 更新了2012年的数据
 
 [1]: http://www.duoshuo.com

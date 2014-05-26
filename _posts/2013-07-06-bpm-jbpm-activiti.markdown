@@ -14,12 +14,8 @@ wordpress_url: http://www.zhlwish.com/?p=1213
 date: '2013-07-06 11:19:25 +0800'
 date_gmt: '2013-07-06 03:19:25 +0800'
 categories:
-- Web
-tags:
 - Java
-- web后台
-- 工作流
-- AWS
+tags: []
 comments:
 - id: 1128
   author: 咖啡兔

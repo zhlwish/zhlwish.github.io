@@ -13,9 +13,8 @@ wordpress_url: http://www.zhlwish.com/?p=1041
 date: '2012-06-20 20:52:43 +0800'
 date_gmt: '2012-06-20 12:52:43 +0800'
 categories:
-- 生活感悟
+- Life
 tags:
-- 思维
 comments: []
 ---
 来源：<a href="http://bbs.cenet.org.cn/html/board92523/topic26091.htm">http://bbs.cenet.org.cn/html/board92523/topic26091.htm</a>
