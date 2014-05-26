@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: "[转载]陈丹青：民国是历史还是现实"
+title: 转载：民国是历史还是现实(陈丹青)
 author: 周亮
 author_login: admin
 author_email: zhlwish@gmail.com
