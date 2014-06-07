@@ -41,10 +41,10 @@
 }
 
 /* Apply these base styles to all icons */
-.icon-ghost:before, 
-.icon-feed:before, 
-.icon-twitter:before, 
-.icon-google-plus:before, 
+.icon-ghost:before,
+.icon-feed:before,
+.icon-twitter:before,
+.icon-google-plus:before,
 .icon-facebook:before {
     font-family: 'icons';
     speak: none;
@@ -57,7 +57,7 @@
     text-decoration: none;
 }
 
-/* Each icon is created by inserting the corret character into the 
+/* Each icon is created by inserting the corret character into the
    content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {
     content: "\e000";
@@ -124,26 +124,26 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2em;
     letter-spacing: -1px;
     text-indent: -2px;
 }
 
 h3 {
-    font-size: 3.5rem;
-}
-
-h4 {
-    font-size: 3rem;
-}
-
-h5 {
     font-size: 2.5rem;
 }
 
-h6 {
+h4 {
     font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1rem;
 }
 
 a {
@@ -162,7 +162,7 @@ h4 a, h5 a, h6 a {
 
 
 p, ul, ol, dl {
-    margin: 1.6em 0;
+    margin: 0.8em 0;
 }
 
 ol ol, ul ul,
@@ -273,8 +273,8 @@ kbd {
     font-weight: bold;
     background: #f4f4f4;
     border-radius: 4px;
-    box-shadow: 
-        0 1px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow:
+        0 1px 0 rgba(0, 0, 0, 0.2),
         0 1px 0 0 #fff inset;
 }
 
@@ -348,7 +348,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -420,7 +420,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width:80%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -629,7 +629,7 @@ margin on the iframe, cause it breaks stuff. */
 .pagination {
     position: relative;
     width: 80%;
-    max-width: 700px;
+    max-width: 900px;
     margin: 4rem auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
@@ -800,9 +800,9 @@ margin on the iframe, cause it breaks stuff. */
     }
 
     .site-head {
-        -webkit-box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         height: auto;
         min-height: 240px;
         padding: 15% 0;
@@ -866,7 +866,7 @@ margin on the iframe, cause it breaks stuff. */
         max-height: 80px;
     }
 
-    .inner, 
+    .inner,
     .pagination {
         width: auto;
         margin-left: 16px;

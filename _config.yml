@@ -3,6 +3,8 @@ description: "Where there is a will, there is a way"
 meta_description: "周亮的博客, Zhou Liang, Ruby on Rails，Java，Android, iOS"
 
 markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
 pygments: true
 logo: false
 
@@ -20,4 +22,3 @@ permalink: /:year/:month/:day/:title
 
 paginate_path: /page/:num
 paginate: 15
-

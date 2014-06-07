@@ -15,7 +15,7 @@ date: '2013-06-16 10:16:12 +0800'
 date_gmt: '2013-06-16 02:16:12 +0800'
 categories:
 - Life
-tags:[]
+tags: []
 comments:
 - id: 1101
   author: BJD娃娃

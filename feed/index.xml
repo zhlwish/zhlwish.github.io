@@ -9,7 +9,15 @@
     <link>http://zhouliang.pro</link>
     <description>Where there is a will, there is a way</description>
     <copyright>除非另有声明，本网站采用&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/cn/&quot;&gt;知识共享“署名 3.0 中国大陆”许可协议&lt;/a&gt;授权。</copyright>
-    <pubDate>Fri, 23 May 2014 15:10:23 +0800</pubDate>
+    <pubDate>Wed, 04 Jun 2014 22:56:26 +0800</pubDate>
+    <item>
+      <title>Git笔记</title>
+      <link>http://zhouliang.pro/2014/06/04/git-tips</link>
+      <description>&lt;p&gt;工作中越来越离不开&lt;em&gt;&lt;a href=&quot;http://git-scm.com&quot;&gt;git&lt;/a&gt;&lt;/em&gt;，深感&lt;em&gt;&lt;a href=&quot;http://git-scm.com&quot;&gt;git&lt;/a&gt;&lt;/em&gt;的功能强大，基本上你会用到的、你能想到的功能都可以实现。本文是笔者遇到的问题以及解决方法的汇总，希望对读者有所帮助。&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Jun 2014 22:56:26 +0800</pubDate>
+      <dc:date>2014-06-04T22:56:26+08:00</dc:date>
+    </item>
     <item>
       <title>Linux mount命令详解</title>
       <link>http://zhouliang.pro/2014/05/23/linux-mount-command</link>
@@ -292,6 +300,6 @@ your life more easier。&amp;#39;&lt;/p&gt;
       <pubDate>Tue, 03 Jan 2012 00:27:51 +0800</pubDate>
       <dc:date>2012-01-03T00:27:51+08:00</dc:date>
     </item>
-    <dc:date>2014-05-23T15:10:23+08:00</dc:date>
+    <dc:date>2014-06-04T22:56:26+08:00</dc:date>
   </channel>
 </rss>
