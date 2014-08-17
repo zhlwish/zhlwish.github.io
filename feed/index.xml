@@ -300,6 +300,54 @@ your life more easier。&amp;#39;&lt;/p&gt;
       <pubDate>Tue, 03 Jan 2012 00:27:51 +0800</pubDate>
       <dc:date>2012-01-03T00:27:51+08:00</dc:date>
     </item>
+    <item>
+      <title>骗人的美国主机服务商WebHostingPad</title>
+      <link>http://zhouliang.pro/2011/12/15/webhostingpad-cheater</link>
+      <description>&lt;p&gt;我终于忍不住要写这篇博客，奉劝想省钱的朋友们：“便宜无好货”，而且不要被所谓的“华人”给骗了。&lt;br /&gt; 我是在找国外主机的时候发现WebHostingPad的，因为有介绍说创始人是华人，因此多了一份好感。价钱比较便宜，2-3美元一个月，而且还可以绑定无限个域名，其他的限制条件（如空间、文件数、流量）基本都是不限制，这对于我这个一直用国内主机的人来说是很兴奋的。大家都知道国内的空间总是限你的文件数目、数据库的个数等等等等，一遍又一遍的强奸用户。而且WebHostingPad还承诺一个月不满意就退款。&lt;br /&gt;事实证明，一个月之内的确没有任何问题，网站速度也不错。当一个月满了，过了几天之后，帐号被禁用了。客服说CPU使用太多，我艹，我就一个WordPress，而且每天的独立IP也就70-100，这样也CPU使用太多？&lt;/p&gt;
+</description>
+      <pubDate>Thu, 15 Dec 2011 01:31:54 +0800</pubDate>
+      <dc:date>2011-12-15T01:31:54+08:00</dc:date>
+    </item>
+    <item>
+      <title>X Window System简介</title>
+      <link>http://zhouliang.pro/2011/12/15/x-window-system</link>
+      <description>&lt;p&gt;1984年，MIT开始研究X Window System，用于在Unix上支持GUI界面，X Window System研究时是作为应用软件进行开发的，而不是操作系统。而且X Window System是作为架构规范进行研究，因此需要人和组织对其进行实现和包装（和linux一样，要有发行版）。1987年，X版本更新到X11，这一版有非常明显的进步，因此后面X Window System也被称为X11，X11有通过网络功能访问GUI界面的功能。&lt;/p&gt;
+</description>
+      <pubDate>Thu, 15 Dec 2011 00:39:48 +0800</pubDate>
+      <dc:date>2011-12-15T00:39:48+08:00</dc:date>
+    </item>
+    <item>
+      <title>《设计与生存》读书笔记</title>
+      <link>http://zhouliang.pro/2011/11/12/shejiyushengcun</link>
+      <description>&lt;p&gt;本书的标题全名为《设计与生存----一位IT设计管理人员20年的经历与感悟》，很久以前就看到团队藏书里面有一本书叫《设计与生存》，2006年出版，时隔今日已5年，在半年就技术升级的IT世界，已经算是老龄了，所以给我最初的映像是装帧土气、历史久远，“历史久远”绝对不是褒义。不过副标题“一位IT设计管理人员20年的经历与感悟”却是引起了我的注意，人生能有几个二十年呢？于是我拿起这本其貌不扬的书快速地浏览了一下，顿时就被吸引了。看完第一章就对作者马宁伟先生的奋进、执着和思考由衷的敬佩。我立马想到新浪微博上找这个作者，可惜看到的是马先生因为肝癌已经离我们远去，我根据网上的资料推测应该是2011年初。在此以表达对马宁伟先生的缅怀。&lt;/p&gt;
+</description>
+      <pubDate>Sat, 12 Nov 2011 17:51:12 +0800</pubDate>
+      <dc:date>2011-11-12T17:51:12+08:00</dc:date>
+    </item>
+    <item>
+      <title>Ubuntu上的包管理：dpkg，apt和aptitude</title>
+      <link>http://zhouliang.pro/2011/10/23/ubuntu-apt-aptitude-dpkg</link>
+      <description>&lt;p&gt;最开始的时候，Linux上的软件以源代码的方式发布，用户下载源代码包（通常打包为.tar.gz），然后自行编译。dpkg是Debian软件包管理器的基础，它被伊恩&amp;middot;默多克创建于1993年。dpkg与RPM十分相似，同样被用于安装、卸载和供给和.deb软件包相关的信息。本身是一个底层的工具，本身并不能从远程包仓库下载包以及处理包的依赖的关系，基于dpkg的上层工具，如APT，则用于从远程获取软件包以及处理复杂的软件包关系。&lt;/p&gt;
+</description>
+      <pubDate>Sun, 23 Oct 2011 17:21:40 +0800</pubDate>
+      <dc:date>2011-10-23T17:21:40+08:00</dc:date>
+    </item>
+    <item>
+      <title>XMPP中资源/Resource的解释和JID</title>
+      <link>http://zhouliang.pro/2011/09/23/xmpp_resource_jid</link>
+      <description>&lt;p&gt;因为之前写过&lt;a href=&quot;http://www.zhlwish.com/2011/04/04/pyxmpp_gtalk/&quot; title=&quot;使用PyXMPP向GTalk发送消息&quot;&gt;《使用PyXMPP向GTalk发送消息》&lt;/a&gt;一文，最近被一个研究XMPP协议的学妹问到XMPP协议中的资源（Resource）的意思。其实我开始也是一知半解，而且学妹挺诚心的样子，就仔细看了看XMPP协议的文档，这里也感谢这位学妹提供的XMPP协议（RFC3920）的&lt;a href=&quot;http://zhlwish.googlecode.com/files/RFC3920%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%89%88.doc&quot; target=&quot;_blank&quot;&gt;中文版&lt;/a&gt;和&lt;a href=&quot;http://zhlwish.googlecode.com/files/rfc3920.pdf&quot; target=&quot;_blank&quot;&gt;英文版&lt;/a&gt;，其实我以前写用pyxmpp的时候也没有仔细看XMPP协议的。不看不知道，一看吓一跳，原来所谓的Resource和我一直很欣赏的Google Talk的多客户端同时在线的功能有关系，Google Talk就是基于XMPP协议的。&lt;/p&gt;
+</description>
+      <pubDate>Fri, 23 Sep 2011 16:31:20 +0800</pubDate>
+      <dc:date>2011-09-23T16:31:20+08:00</dc:date>
+    </item>
+    <item>
+      <title>相信未来</title>
+      <link>http://zhouliang.pro/2011/09/20/believe-future</link>
+      <description>&lt;p&gt;当蜘蛛网无情地查封了我的炉台，当灰烬的余烟叹息着贫困的悲哀，我依然固执地铺平失望的灰烬，用美丽的雪花写下：相信未来。&lt;/p&gt;
+</description>
+      <pubDate>Tue, 20 Sep 2011 01:06:11 +0800</pubDate>
+      <dc:date>2011-09-20T01:06:11+08:00</dc:date>
+    </item>
     <dc:date>2014-06-04T22:56:26+08:00</dc:date>
   </channel>
 </rss>
