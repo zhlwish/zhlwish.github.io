@@ -11,6 +11,14 @@
     <copyright>除非另有声明，本网站采用&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/cn/&quot;&gt;知识共享“署名 3.0 中国大陆”许可协议&lt;/a&gt;授权。</copyright>
     <pubDate>Wed, 04 Jun 2014 22:56:26 +0800</pubDate>
     <item>
+      <title>弹出消息框的命令行工具terminal-notifier</title>
+      <link>http://zhouliang.pro/2014/06/04/terminal-notifier</link>
+      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/alloy/terminal-notifier/&quot;&gt;terminal-notifier&lt;/a&gt;是一个开源项目，适用于Mac系统，可以在通过命令的方式弹出Mac消息提示框。如果一个Shell脚本的运行时间较长，则可以用ternimal-notifier在执行完成后弹出消息框提示你，特别适合使用命令行较多的程序员。&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Jun 2014 22:56:26 +0800</pubDate>
+      <dc:date>2014-06-04T22:56:26+08:00</dc:date>
+    </item>
+    <item>
       <title>Git笔记</title>
       <link>http://zhouliang.pro/2014/06/04/git-tips</link>
       <description>&lt;p&gt;工作中越来越离不开&lt;em&gt;&lt;a href=&quot;http://git-scm.com&quot;&gt;git&lt;/a&gt;&lt;/em&gt;，深感&lt;em&gt;&lt;a href=&quot;http://git-scm.com&quot;&gt;git&lt;/a&gt;&lt;/em&gt;的功能强大，基本上你会用到的、你能想到的功能都可以实现。本文是笔者遇到的问题以及解决方法的汇总，希望对读者有所帮助。&lt;/p&gt;
