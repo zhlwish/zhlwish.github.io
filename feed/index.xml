@@ -9,7 +9,15 @@
     <link>http://zhouliang.pro</link>
     <description>Where there is a will, there is a way</description>
     <copyright>除非另有声明，本网站采用&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/cn/&quot;&gt;知识共享“署名 3.0 中国大陆”许可协议&lt;/a&gt;授权。</copyright>
-    <pubDate>Wed, 04 Jun 2014 22:56:26 +0800</pubDate>
+    <pubDate>Sat, 06 Sep 2014 23:27:00 +0800</pubDate>
+    <item>
+      <title>Android Animation</title>
+      <link>http://zhouliang.pro/2014/09/06/android-animation</link>
+      <description>&lt;p&gt;Android 框架提供了非常便捷的基础设施用于实现动画效果，掌握这些API接口以及其演进历史非常重要，本文粗浅的对 Animation 框架进行了梳理，对相关API进行了介绍。&lt;/p&gt;
+</description>
+      <pubDate>Sat, 06 Sep 2014 23:27:00 +0800</pubDate>
+      <dc:date>2014-09-06T23:27:00+08:00</dc:date>
+    </item>
     <item>
       <title>弹出消息框的命令行工具terminal-notifier</title>
       <link>http://zhouliang.pro/2014/06/04/terminal-notifier</link>
@@ -356,6 +364,6 @@ your life more easier。&amp;#39;&lt;/p&gt;
       <pubDate>Tue, 20 Sep 2011 01:06:11 +0800</pubDate>
       <dc:date>2011-09-20T01:06:11+08:00</dc:date>
     </item>
-    <dc:date>2014-06-04T22:56:26+08:00</dc:date>
+    <dc:date>2014-09-06T23:27:00+08:00</dc:date>
   </channel>
 </rss>
