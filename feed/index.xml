@@ -53,7 +53,7 @@
     <item>
       <title>MySQL查询优化：tmp_table_size与max_heap_table_size</title>
       <link>http://zhouliang.pro/2014/04/18/mysql-tmp_table_size-max_heap_table_size</link>
-      <description>&lt;p&gt;对于某些query，MySQL会创建临时表来进行处理，临时表有两种：基于MEMORY存储引擎的临时内存表以及基于MyISAM存储引擎的临时磁盘表。当临时内存表的大小达到一定限制的时候，MySQL就会将临时内存表写入到磁盘，变为临时磁盘表。这个限制由tmp&lt;em&gt;table&lt;/em&gt;size和max&lt;em&gt;heap&lt;/em&gt;table_size这两个变量中的最小值确定。&lt;/p&gt;
+      <description>&lt;p&gt;对于某些query，MySQL会创建临时表来进行处理，临时表有两种：基于MEMORY存储引擎的临时内存表以及基于MyISAM存储引擎的临时磁盘表。当临时内存表的大小达到一定限制的时候，MySQL就会将临时内存表写入到磁盘，变为临时磁盘表。这个限制由tmp_table_size和max_heap_table_size这两个变量中的最小值确定。&lt;/p&gt;
 </description>
       <pubDate>Fri, 18 Apr 2014 10:02:33 +0800</pubDate>
       <dc:date>2014-04-18T10:02:33+08:00</dc:date>
@@ -245,7 +245,7 @@ your life more easier。&amp;#39;&lt;/p&gt;
     <item>
       <title>[转载]辩证法与放屁</title>
       <link>http://zhouliang.pro/2012/06/20/dialectics</link>
-      <description>&lt;p&gt;来源：&lt;a href=&quot;http://bbs.cenet.org.cn/html/board92523/topic26091.htm&quot;&gt;http://bbs.cenet.org.cn/html/board92523/topic26091.htm&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;来源：&lt;a href=&quot;http://bbs.cenet.org.cn/html/board92523/topic26091.htm&quot;&gt;&lt;a href=&quot;http://bbs.cenet.org.cn/html/board92523/topic26091.htm&quot;&gt;http://bbs.cenet.org.cn/html/board92523/topic26091.htm&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;第一堂课&lt;/strong&gt;&lt;/p&gt;
 
@@ -363,6 +363,14 @@ your life more easier。&amp;#39;&lt;/p&gt;
 </description>
       <pubDate>Tue, 20 Sep 2011 01:06:11 +0800</pubDate>
       <dc:date>2011-09-20T01:06:11+08:00</dc:date>
+    </item>
+    <item>
+      <title>Bash Shell快捷键</title>
+      <link>http://zhouliang.pro/2011/04/11/bash-shell-hot-key</link>
+      <description>&lt;p&gt;原文来自这里&lt;a href=&quot;http://linuxhelp.blogspot.com/2005/08/bash-shell-shortcuts.html&quot;&gt;Bash Shell Shortcuts&lt;/a&gt;和这里&lt;a href=&quot;http://www.dbanotes.net/techmemo/shell_shortcut.html&quot;&gt;Bash Shell 快捷键的学习使用&lt;/a&gt;，但是归根结底，还是来自这里&lt;a href=&quot;http://linuxhelp.blogspot.com/2005/08/bash-shell-shortcuts.html&quot;&gt;Bash Shell Shortcuts&lt;/a&gt;，我只是稍微翻译了一下，重新排了序&lt;/p&gt;
+</description>
+      <pubDate>Mon, 11 Apr 2011 20:49:36 +0800</pubDate>
+      <dc:date>2011-04-11T20:49:36+08:00</dc:date>
     </item>
     <dc:date>2014-09-06T23:27:00+08:00</dc:date>
   </channel>

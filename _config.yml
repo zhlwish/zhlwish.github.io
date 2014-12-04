@@ -4,7 +4,7 @@ meta_description: "周亮的博客, Zhou Liang, Ruby on Rails，Java，Android, 
 
 markdown: redcarpet
 redcarpet:
-    extensions: [with_toc_data]
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: true
 logo: false
 
