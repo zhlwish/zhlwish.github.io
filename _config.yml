@@ -13,7 +13,7 @@ logo: false
 rss_name: 'feed/index.xml'
 url:            'http://zhouliang.pro'
 author:         '周亮'
-author_description: '程序员，毕业于华中科技大学电信系，Dian团队第二任队长，华中科技大学OPhone俱乐部首任主席，擅长Ruby/Rails/Java开发，喜欢iOS设备与开发。'
+author_description: '程序员，毕业于华中科技大学，喜欢折腾技术'
 copyright: '除非另有声明，本网站采用<a href="http://creativecommons.org/licenses/by/3.0/cn/">知识共享“署名 3.0 中国大陆”许可协议</a>授权。'
 
 
@@ -22,3 +22,10 @@ permalink: /:year/:month/:day/:title
 
 paginate_path: /page/:num
 paginate: 15
+
+safe: false
+cdn_url: http://7xj0lk.com1.z0.glb.clouddn.com/
+
+JB:
+  ASSET_PATH: false
+  IMAGE_PATH: false
